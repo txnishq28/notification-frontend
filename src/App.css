@@ -1,0 +1,71 @@
+/* Full height for layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center everything in the app */
+.app-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* Button styling (optional, tweak as needed) */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: white;
+  color: #1e1e1e;
+}
+
+/* Logo styles (if using one) */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animation for logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card and docs styling if used */
+.card {
+  padding: 2em;
+}
+.read-the-docs {
+  color: #888;
+}
