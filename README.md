@@ -1,12 +1,40 @@
-# React + Vite
+# 🔔 Notification System – Real-Time POC (InsydAI Internship Task)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack real-time notification system for a social platform, designed as a proof of concept for the InsydAI Fullstack AI Developer Internship. Built using React (Vite), Node.js, MongoDB, and Socket.IO.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+- **Frontend (Vercel)**: [https://notification-front-git-4552ea-tanishq-tiwaris-projects-1661b60d.vercel.app/](#)
+- **Backend (Render)**: [https://notification-backend-n1pg.onrender.com](#)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ℹ️ Replace the above with your deployed URLs after deployment.
+
+---
+
+## ⚙️ Features
+
+- Real-time notifications using **Socket.IO**
+- Backend API using **Express.js**
+- Data persistence with **MongoDB Atlas**
+- Optional job queue using **BullMQ + Redis**
+- Simulated "Like" action triggers live updates
+- Simple, clean UI with React + Vite
+
+---
+
+## 🧱 Tech Stack
+
+| Layer       | Technology               |
+|-------------|---------------------------|
+| Frontend    | React (Vite)              |
+| Backend     | Node.js + Express         |
+| Realtime    | Socket.IO                 |
+| Database    | MongoDB Atlas             |
+| Queue (optional) | Redis + BullMQ         |
+| Hosting     | Vercel (frontend), Render (backend)
+
+---
+
+
