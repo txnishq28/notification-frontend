@@ -1,3 +1,4 @@
+// Inside socket.js (or similar)
 import { io } from 'socket.io-client';
 
-export const socket = io('http://localhost:4000'); // If backend is deployed later, replace URL
+export const socket = io('https://notification-backend-n1pg.onrender.com');
