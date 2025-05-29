@@ -9,7 +9,6 @@ A full-stack real-time notification system for a social platform, designed as a 
 - **Frontend (Vercel)**: [https://notification-front-git-4552ea-tanishq-tiwaris-projects-1661b60d.vercel.app/](#)
 - **Backend (Render)**: [https://notification-backend-n1pg.onrender.com](#)
 
-> ℹ️ Replace the above with your deployed URLs after deployment.
 
 ---
 
