@@ -2,7 +2,8 @@ import NotificationBell from './components/NotificationBell';
 
 function App() {
   const handleLike = async () => {
-    await fetch('https://notification-backend.onrender.com/api/interaction/like', ... {
+    await fetch('https://notification-backend-n1pg.onrender.com/api/interaction/like', ...
+{
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ senderId: 'userA', recipientId: 'userB' })
